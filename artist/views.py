@@ -8,7 +8,7 @@ def artist(request, name, dynamodb=None):
         if not dynamodb:
             dynamodb = boto3.resource('dynamodb', endpoint_url="http://localhost:8000")
         genius = Get_Genius
-        dados = genius.get_popularity_songs(name, max_songs=2)
+        dados = genius.get_popularity_songs(name, max_songs=10)
         id = str(uuid.uuid4())
         content2 = [
             {
