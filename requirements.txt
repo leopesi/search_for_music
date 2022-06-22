@@ -10,7 +10,7 @@ idna==2.10
 jmespath==0.10.0
 lyricsgenius==1.8.6
 minepy==1.2.4
-numpy==1.19.0
+numpy==1.22.0
 python-dateutil==2.8.1
 python-dotenv==0.14.0
 pytz==2020.1
